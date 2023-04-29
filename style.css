@@ -1,0 +1,75 @@
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.square {
+  font-family: "Finger Paint", sans-serif;
+  color: #232d55;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #6e92a3;
+  border: 1px solid #6e92a3;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+  background: #a0d2ebc0;
+}
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square:hover {
+    background-color: #eee;
+  }
+  
+  #status {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  #restart {
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    text-align: center;
+    padding: 30px;
+    background: #e5eaf5c0;
+}
+body{
+  background: #F5F5F5 ;
+}
+
+#field {
+    padding: 30px;
+}
